@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_istatistik"
+        android:title="@string/istatistikler"
+        android:icon="@drawable/ic_stats"/>
+
+    <item android:id="@+id/action_belirtiler"
+        android:title="@string/belirtiler"
+        android:icon="@drawable/ic_corona"/>
+
+    <item android:id="@+id/action_korunma"
+        android:title="@string/korunma"
+        android:icon="@drawable/ic_mask"/>
+
+</menu>
