@@ -3,6 +3,27 @@
     <string name="istatistikler">İstatistikler</string>
     <string name="belirtiler">Belirtiler</string>
     <string name="korunma">Korunma</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text">En Yaygın Semptomlar:\n
+- Ateş\n
+- Kuru öksürük\n
+- Yorgunluk\n\n
+Daha Seyrek Görülen Semptomlar:\n
+- Ağrı ve Sızı\n
+- Boğaz ağrısı\n
+- İshal\n
+- Konjunktivit\n
+- Baş ağrısı\n
+- Tat alma veya koku duyusunun kaybı\n
+- Ciltte döküntü ya da el veya ayak parmaklarında renk değişimi\n\n
+Ciddi semptomlar:\n
+- Solunum güçlüğü veya nefes darlığı\n
+- Göğüs ağrısı veya göğüste baskı\n
+- Konuşma veya hareket kaybı\n\n
+Ciddi semptomlar gösteriyorsanız derhal tıbbi yardım alın. Doktorunuzu veya sağlık tesisini ziyaret etmeden önce mutlaka telefonla arayın.\n\n
+Hafif semptomlar gösteren ve başka bir sağlık sorunu olmayan kişiler, tedavi sürecini evde geçirmelidir.\n\n
+Virüsle enfekte olan kişiler ortalama 5-6 gün içinde semptomları göstermeye başlar. Bununla birlikte, bu süre 14 günü bulabilir.</string>
+    <string name="vaka_detaylari">Vaka Detayları</string>
+
+
 </resources>

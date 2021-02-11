@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_istatistikFragment_to_belirtiFragment"
             app:destination="@id/belirtiFragment" />
+        <action
+            android:id="@+id/action_istatistikFragment_to_vakaDetayFragment"
+            app:destination="@id/vakaDetayFragment" />
     </fragment>
     <fragment
         android:id="@+id/belirtiFragment"
@@ -28,4 +31,9 @@
         android:name="com.adematici.covidturkey.fragment.KorunmaFragment"
         android:label="Korunma Yolları"
         tools:layout="@layout/fragment_korunma" />
+    <fragment
+        android:id="@+id/vakaDetayFragment"
+        android:name="com.adematici.covidturkey.fragment.VakaDetayFragment"
+        android:label="fragment_vaka_detay"
+        tools:layout="@layout/fragment_vaka_detay" />
 </navigation>
