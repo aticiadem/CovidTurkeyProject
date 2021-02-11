@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/action_istatistik"
+    <item android:id="@+id/istatistikFragment"
         android:title="@string/istatistikler"
         android:icon="@drawable/ic_stats"/>
 
-    <item android:id="@+id/action_belirtiler"
+    <item android:id="@+id/belirtiFragment"
         android:title="@string/belirtiler"
         android:icon="@drawable/ic_corona"/>
 
-    <item android:id="@+id/action_korunma"
+    <item android:id="@+id/korunmaFragment"
         android:title="@string/korunma"
         android:icon="@drawable/ic_mask"/>
 
