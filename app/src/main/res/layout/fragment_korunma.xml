@@ -9,28 +9,28 @@
     android:gravity="center"
     tools:context=".fragment.KorunmaFragment">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+    <View
+        android:id="@+id/view6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/bottom_nav_color"
-        app:title="Korunma Yolları"
-        app:titleTextColor="@color/white"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+        android:layout_height="200dp"
+        android:background="@drawable/bluecorona"
+        app:layout_constraintCircleRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <GridLayout
+        android:id="@+id/grid_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:columnCount="2"
         android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        app:layout_constraintTop_toBottomOf="@+id/view6">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView1"
