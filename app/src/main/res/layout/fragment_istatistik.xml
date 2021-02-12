@@ -25,7 +25,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView22"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -48,7 +48,7 @@
                 android:textColor="@color/bottom_nav_color"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
             <View
                 android:id="@+id/view"
@@ -198,7 +198,7 @@
         android:id="@+id/buttonVakaDetaylari"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:textSize="22sp"
         android:background="@drawable/button_background"
         android:textColor="@color/white"
