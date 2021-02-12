@@ -2,8 +2,8 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@android:color/white"
         tools:context=".fragment.BelirtiFragment">
 
         <LinearLayout
@@ -21,26 +20,26 @@
             android:layout_height="250dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:layout_height="wrap_content">
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:src="@drawable/oksuruk"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/oksuruk"/>
 
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:src="@drawable/bogazagrisi"/>
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:src="@drawable/ates"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/bogazagrisi"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ates"/>
 
-            </LinearLayout>
+        </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -66,14 +65,14 @@
             android:layout_width="match_parent"
             app:cardCornerRadius="20dp"
             android:layout_margin="15dp"
-            android:backgroundTint="@color/beyazayakın"
+            android:background="@drawable/belirtiler2"
             android:layout_height="wrap_content">
 
             <TextView
+                android:padding="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:layout_marginTop="10dp"
+                android:background="@drawable/belirtiler2"
                 android:text="@string/text"
                 android:textSize="20sp"
                 android:textColor="@color/black"
@@ -81,4 +80,5 @@
 
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+
 </ScrollView>
