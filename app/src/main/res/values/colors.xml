@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bottom_nav_color">#193566</color>
     <color name="beyazayakın">#EAEAEA</color>
+    <color name="korunma1">#9FB6F8</color>
+    <color name="korunma2">#A2C2BD</color>
+    <color name="korunma3">#C79FC1</color>
+    <color name="korunma4">#DFD0F0</color>
 </resources>
