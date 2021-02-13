@@ -11,6 +11,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
@@ -72,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="%3"
+                    android:text="%0"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -106,7 +107,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="%47.5"
+                    android:text="%0.0"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -140,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="%37.2"
+                    android:text="%0.0"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -174,7 +175,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="%29.5"
+                    android:text="%0.0"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -190,7 +191,6 @@
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/beyazayakın"
             app:cardCornerRadius="30dp">
 
@@ -243,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="32.178.754"
+                    android:text="000.000.000"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -272,12 +272,12 @@
                     app:layout_constraintTop_toBottomOf="@+id/view2" />
 
                 <TextView
-                    android:id="@+id/textViewToplamHastaSayisi"
+                    android:id="@+id/textViewToplamVakaSayisi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="12"
+                    android:text="0"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -311,7 +311,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="12500"
+                    android:text="0000"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -345,7 +345,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="1234"
+                    android:text="0000"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -378,7 +378,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
-                    android:text="12345670"
+                    android:text="00000000"
                     android:textColor="@color/bottom_nav_color"
                     android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
