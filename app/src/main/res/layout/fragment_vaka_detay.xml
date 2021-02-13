@@ -191,6 +191,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/beyazayakın"
             app:cardCornerRadius="30dp">
 
